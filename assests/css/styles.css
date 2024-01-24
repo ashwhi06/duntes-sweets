@@ -1,105 +1,113 @@
-body{
-    margin: 0;
-    padding:0;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-.navbar{
-    margin-bottom:0;
+.navbar {
+  margin-bottom: 0;
 }
-#parallax{
+#parallax {
   background-image: url("https://images.unsplash.com/photo-1587585731493-f5884395413b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-position: center;
   background-size: cover;
   height: 500px;
   min-height: 350px;
   background-attachment: fixed;
-  
 }
 
-#site-header{
-font-family: "Kaushan Script", cursive;
-/* font-family: "Pinyon Script", cursive; */
-font-weight: 600;
-font-style: normal;
-font-size:7.5em;
-color: #ffffff;
-/* border: 5px solid #de53c5; */
-text-align: center;
-margin: 0 auto;
-padding-top: 12%;
+#site-header {
+  font-family: "Kaushan Script", cursive;
+  /* font-family: "Pinyon Script", cursive; */
+  font-weight: 600;
+  font-style: normal;
+  font-size: 7.5em;
+  color: #ffffff;
+  /* border: 5px solid #de53c5; */
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 12%;
 }
 
 #site-header-content {
-    font-family: "Kaushan Script", cursive;
-    font-weight: 600;
-    font-style: normal;
-    font-size:2em;
-    color: #80096a;
+  font-family: "Kaushan Script", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2em;
+  color: #80096a;
 }
 
 /* Navbar */
-.nav-link i{
-    color: #de53c5;
-    size: 2em;
+.nav-link i {
+  color: #de53c5;
+  size: 2em;
 }
 
-.section-heading, .center-text {
-    text-align: center;
-  }
-  
-  /* About us section */
+.section-heading,
+.center-text {
+  text-align: center;
+}
 
-.about-row{
-   display: flex;
+/* About us section */
 
-    align-items: center; 
-    /* border: 3px solid blueviolet; */
-    /* width: 900px;
+.about-row {
+  display: flex;
+
+  align-items: center;
+  /* border: 3px solid blueviolet; */
+  /* width: 900px;
     min-width: 350px;
     margin: 0 auto; */
-
 }
 
-  .about img {
+.about img {
   border-radius: 90%;
   width: 90%;
-    padding: 10px;
-  }
-
-  /* Contact us */
-  label i {
-    margin-left: 10px;
-  }
-  
-  /* Products */
-  .products {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .products img {
-    flex: 1 0 21%;
-    max-width: 100%;
-    height: auto;
-  }
-  
-
-
-/* Misc */
-h2{
-    font-family: "Kaushan Script", cursive;
-    color: #80096a;
-    text-align: center;
-    font-size: 2.5em;
+  padding: 10px;
 }
 
-.contact, 
-.about, 
+/* Contact us */
+label i {
+  margin-left: 10px;
+}
+
+/* Products */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products img {
+  flex: 1 0 21%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Misc */
+h2 {
+  font-family: "Kaushan Script", cursive;
+  color: #80096a;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.contact,
+.about,
 .footer,
 #products {
-    margin-top: 40px;
-    padding: 10px;
-    /* border: 3px solid red; */
+  margin-top: 40px;
+  padding: 10px;
+  /* border: 3px solid red; */
+}
+
+@media (max-width: 576px) {
+  #site-header {
+    font-size: 3em;
+    text-align: center;
+  }
+  .site-header-content{
+    font-size: 0.5em;
+    text-align: center;
+  }
 }
