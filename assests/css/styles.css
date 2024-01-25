@@ -13,7 +13,6 @@ body {
   background-position: center;
   background-size: cover;
   height: 500px;
-  min-height: 350px;
   background-attachment: fixed;
 }
 
